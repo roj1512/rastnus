@@ -297,7 +297,7 @@ const html = (
         <p>
           <sub>
             لەژێر کاردایە &middot;{" "}
-            <a href="https://github.com/">
+            <a href="https://github.com/roj1512/renus-bepele">
               سەرچاوە
             </a>{" "}
             &middot; <a href="https://roj.im">ڕۆژ</a>
