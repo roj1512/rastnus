@@ -4,7 +4,7 @@ import { writeFileSync } from "fs";
 import { renderToStaticMarkup } from "react-dom/server";
 
 const otherProseChildren = [
-  <h2 id="1">هاوەڵکاری چۆنییەتی مەتۆرێنە</h2>,
+  <h2 id="1">هاوەڵکاری چۆنییەتی مەشکێنە</h2>,
   <>
     <p>
       هاوەڵکاری چۆنییەتی دەبێت بەیەکەوە بنووسرێت و نابێت بەشەکانی لێک جیا
