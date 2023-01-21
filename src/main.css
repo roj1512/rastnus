@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light: #eeeeee;
+  --dark: #121212;
+  --less-light: #cccccc;
+  --less-dark: #333333;
+  --t-less-light: #cccccc33;
+  --t-less-dark: #33333333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --light: #121212;
+    --dark: #eeeeee;
+    --less-light: #333333;
+    --less-dark: #cccccc;
+    --t-less-light: #33333333;
+    --t-less-dark: #cccccc33;
+  }
+}
+
+.incorrect {
+  background-color: #ff000033;
+}
+
+.correct {
+  background-color: #00ff0033;
+}

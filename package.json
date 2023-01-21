@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc --watch",
+    "mon": "nodemon dist/main.js",
+    "postcss": "postcss  ./src/main.css -o ./dist/main.css --watch",
+    "dev": "concurrently \"npm run postcss\" \"npm run build\" \"npm run mon\""
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  }
+}
