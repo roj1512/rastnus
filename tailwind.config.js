@@ -15,7 +15,7 @@ export default {
         correct: "#00ff0033",
       },
       fontFamily: {
-        "nsa": '"Noto Sans Arabic", sans-serif',
+        "vazirmatn": '"Vazirmatn", sans-serif',
       },
     },
   },

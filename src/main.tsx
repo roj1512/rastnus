@@ -276,11 +276,11 @@ const html = (
       />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap"
       />
       <link rel="stylesheet" href="./main.css" />
     </head>
-    <body className="bg-light font-nsa text-dark p-5">
+    <body className="bg-light font-vazirmatn text-dark p-5">
       <main className="mx-auto max-w-2xl prose lg:prose-lg dark:prose-invert prose-ul:pl-0 prose-ul:pr-5">
         <h1>ڕێنووس بەپەلە</h1>
         <p>
