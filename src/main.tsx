@@ -189,7 +189,8 @@ const otherProseChildren = [
       ئەوان <span className="bg-incorrect">ڕێککەوتن</span>{" "}
       ڕێککەوتنەکە هەڵوەشێننەوە.
       <br />
-      ئەوان <span className="bg-correct">ڕێک کەوتن</span> ڕێککەوتنەکە هەڵوەشێننەوە.
+      ئەوان <span className="bg-correct">ڕێک کەوتن</span>{" "}
+      ڕێککەوتنەکە هەڵوەشێننەوە.
     </p>
     <p>
       <span className="bg-incorrect">خۆی باشکرد</span>.
@@ -291,9 +292,9 @@ const html = (
         </p>
         <h2>ناوەڕۆک</h2>
         {toc}
-        {otherProseChildren}
+        {...otherProseChildren}
       </main>
-      <footer className="mx-auto max-w-2xl prose lg:prose-lg dark:prose-invert pt-20 pb-5 prose-a:no-underline">
+      <footer className="mx-auto max-w-2xl prose lg:prose-lg dark:prose-invert pt-20 pb-5 prose-a:font-bold prose-a:no-underline">
         <p>
           <sub>
             لەژێر کاردایە &middot;{" "}

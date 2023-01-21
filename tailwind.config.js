@@ -12,10 +12,10 @@ export default {
         "less-light": "var(--less-light)",
         "less-dark": "var(--less-dark)",
         incorrect: "#ff000033",
-        correct: "#00ff0033"
+        correct: "#00ff0033",
       },
       fontFamily: {
-        "ipsa": '"IBM Plex Sans Arabic", sans-serif',
+        "nsa": '"Noto Sans Arabic", sans-serif',
       },
     },
   },
