@@ -11,32 +11,32 @@ const otherProseChildren = [
       بکرێنەوە.
     </p>
     <p>
-      <span className="incorrect">بە باشی</span> کارەکە دەکەم.
+      <span className="bg-incorrect">بە باشی</span> کارەکە دەکەم.
       <br />
-      <span className="correct">بەباشی</span> کارەکە دەکەم.
+      <span className="bg-correct">بەباشی</span> کارەکە دەکەم.
     </p>
     <p>
-      <span className="incorrect">بە پێی</span> ئامارەکان
+      <span className="bg-incorrect">بە پێی</span> ئامارەکان
       <br />
-      <span className="correct">بەپێی</span> ئامارەکان
+      <span className="bg-correct">بەپێی</span> ئامارەکان
     </p>
   </>,
   <h2 id="2">لەخۆتەوە &laquo;ی&raquo; قوت مەدە</h2>,
   <>
     <p>
-      <span className="incorrect">دڵی</span> شکاند.
+      <span className="bg-incorrect">دڵی</span> شکاند.
       <br />
-      <span className="correct">دڵیی</span> شکاند.
+      <span className="bg-correct">دڵیی</span> شکاند.
     </p>
     <p>
-      <span className="incorrect">کانی</span> سازگار.
+      <span className="bg-incorrect">کانی</span> سازگار.
       <br />
-      <span className="correct">کانیی</span> سازگار.
+      <span className="bg-correct">کانیی</span> سازگار.
     </p>
     <p>
-      <span className="incorrect">یاریەکی</span> خۆش بوو.
+      <span className="bg-incorrect">یاریەکی</span> خۆش بوو.
       <br />
-      <span className="correct">یارییەکی</span> خۆش بوو.
+      <span className="bg-correct">یارییەکی</span> خۆش بوو.
     </p>
     <p>
       ڕەنگە نووسینی سێ &laquo;ی&raquo; بەدوای یەکتر ڕاستییەکی تاڵ بێت بۆت، بەڵام
@@ -44,29 +44,29 @@ const otherProseChildren = [
       بن.
     </p>
     <p>
-      <span className="incorrect">کۆتایی</span> فیلمەکە
+      <span className="bg-incorrect">کۆتایی</span> فیلمەکە
       <br />
-      <span className="correct">کۆتاییی</span> فیلمەکە
+      <span className="bg-correct">کۆتاییی</span> فیلمەکە
     </p>
     <p>
-      <span className="incorrect">کۆتاییان</span> پێ هێنا.
+      <span className="bg-incorrect">کۆتاییان</span> پێ هێنا.
       <br />
-      <span className="correct">کۆتایییان</span> پێ هێنا.
+      <span className="bg-correct">کۆتایییان</span> پێ هێنا.
     </p>
     <p>
-      هیچ نییە، زۆر <span className="incorrect">ئاساییە</span>.
+      هیچ نییە، زۆر <span className="bg-incorrect">ئاساییە</span>.
       <br />
-      هیچ نییە، زۆر <span className="incorrect">ئاسایە</span>.
+      هیچ نییە، زۆر <span className="bg-incorrect">ئاسایە</span>.
       <br />
-      هیچ نییە، زۆر <span className="correct">ئاسایییە</span>.
+      هیچ نییە، زۆر <span className="bg-correct">ئاسایییە</span>.
     </p>
   </>,
   <h2 id="3">وشە بە «ر» دەست پێ مەکە</h2>,
   <>
     <p>
-      <span className="incorrect">رەنگ</span>
+      <span className="bg-incorrect">رەنگ</span>
       <br />
-      <span className="correct">ڕەنگ</span>
+      <span className="bg-correct">ڕەنگ</span>
     </p>
   </>,
   <h2 id="4">&laquo;ك&raquo; پیتێکی کوردی نییە</h2>,
@@ -76,125 +76,125 @@ const otherProseChildren = [
       دەنوێنێت و لە کۆتاییی وشەکان بەڕێکی دەردەکەوێت.
     </p>
     <p>
-      <span className="incorrect">خۆراك</span>
+      <span className="bg-incorrect">خۆراك</span>
       <br />
-      <span className="correct">خۆراک</span>
+      <span className="bg-correct">خۆراک</span>
     </p>
   </>,
   <h2 id="5">&laquo;تر&raquo; و &laquo;-تر&raquo; دوو شتی جیان</h2>,
   <>
     <p>&laquo;تر&raquo; واتە دیکە/other. دەبێت سەربەخۆ بنووسرێت.</p>
     <p>
-      <span className="incorrect">یەکێکیتر</span>
+      <span className="bg-incorrect">یەکێکیتر</span>
       <br />
-      <span className="correct">یەکێکی تر</span>
+      <span className="bg-correct">یەکێکی تر</span>
     </p>
     <p>
       ترێکی تریش هەیە کە پاشگرێکە دەچێتە سەر هاوەڵناوی چۆنییەتی و چەندێتی، نابێت
       لە هاوەڵناوەکە جیا بکرێتەوە.
     </p>
     <p>
-      <span className="incorrect">چاوڕەش تر</span>
+      <span className="bg-incorrect">چاوڕەش تر</span>
       <br />
-      <span className="correct">چاوڕەشتر</span>
+      <span className="bg-correct">چاوڕەشتر</span>
     </p>
   </>,
   <h2 id="6">ئاگات لە &laquo;بێـ/بێ/بەبێ&raquo; بێت</h2>,
   <>
     <p>نابێت &laquo;بێ&raquo;ـی هاوەڵناو سەربەخۆ بنووسرێت.</p>
     <p>
-      دراوێکی <span className="incorrect">بێ نرخ</span>
+      دراوێکی <span className="bg-incorrect">بێ نرخ</span>
       <br />
-      دراوێکی <span className="correct">بێنرخ</span>
+      دراوێکی <span className="bg-correct">بێنرخ</span>
     </p>
     <p>هاوەڵکارەکان سەربەخۆ دەنووسرێن.</p>
     <p>
-      <span className="incorrect">بێئاو</span> ژیان نییە.
+      <span className="bg-incorrect">بێئاو</span> ژیان نییە.
       <br />
-      <span className="correct">بێ ئاو</span> ژیان نییە.
+      <span className="bg-correct">بێ ئاو</span> ژیان نییە.
     </p>
     <p>
-      <span className="incorrect">بە بێ</span> ئەوان ناکرێت.
+      <span className="bg-incorrect">بە بێ</span> ئەوان ناکرێت.
       <br />
-      <span className="correct">بەبێ</span> ئەوان ناکرێت.
+      <span className="bg-correct">بەبێ</span> ئەوان ناکرێت.
     </p>
   </>,
   <h2 id="7">چاوگی لێکدراو و داڕێژراو</h2>,
   <>
     <p>بەشەکانی چاوگی لێکدراو و داڕێژراو نابێت لێک جیا بکرێنەوە.</p>
     <p>
-      <span className="incorrect">کار کردن</span>
+      <span className="bg-incorrect">کار کردن</span>
       <br />
-      <span className="correct">کارکردن</span>
+      <span className="bg-correct">کارکردن</span>
     </p>
     <p>
-      <span className="incorrect">خۆ جوان کردن</span>
+      <span className="bg-incorrect">خۆ جوان کردن</span>
       <br />
-      <span className="incorrect">خۆجوان کردن</span>
+      <span className="bg-incorrect">خۆجوان کردن</span>
       <br />
-      <span className="incorrect">خۆ جوانکردن</span>
+      <span className="bg-incorrect">خۆ جوانکردن</span>
       <br />
-      <span className="correct">خۆجوانکردن</span>
+      <span className="bg-correct">خۆجوانکردن</span>
     </p>
     <p>
       تەنیا یەک دۆخی شاز هەیە، ئەویش کاتێکە کە چاوگەکە لە &laquo;سێ پێشگر +
       چاوگێکی سادە&raquo; دروست دەبێت.
     </p>
     <p>
-      <span className="incorrect">پێلێهەڵگرتن</span>
+      <span className="bg-incorrect">پێلێهەڵگرتن</span>
       <br />
-      <span className="correct">پێ لێ هەڵگرتن</span>
+      <span className="bg-correct">پێ لێ هەڵگرتن</span>
     </p>
   </>,
   <h2 id="8">کاری سادە</h2>,
   <>
     <p>ئامڕازی نەرێکردن و چاوگ کاری سادە ناکەنە دوو بەش.</p>
     <p>
-      <span className="incorrect">نەتان کرد</span>.
+      <span className="bg-incorrect">نەتان کرد</span>.
       <br />
-      <span className="correct">نەتانکرد</span>.
+      <span className="bg-correct">نەتانکرد</span>.
     </p>
   </>,
   <h2 id="9">کاری داڕێژراو</h2>,
   <>
     <p>کاری داڕێژراو ئەگەر بەشێکی پێشەوەی بەر جێناو نەکەوت، جیا ناکرێتەوە.</p>
     <p>
-      <span className="incorrect">تێ گەیشتم</span>.
+      <span className="bg-incorrect">تێ گەیشتم</span>.
       <br />
-      <span className="correct">تێگەیشتم</span>.
+      <span className="bg-correct">تێگەیشتم</span>.
     </p>
     <p>
-      <span className="incorrect">هەڵ نەکرد</span>.
+      <span className="bg-incorrect">هەڵ نەکرد</span>.
       <br />
-      <span className="correct">هەڵنەکرد</span>.
+      <span className="bg-correct">هەڵنەکرد</span>.
     </p>
     <p>
       بەڵام ئەگەر بەشێکی پێشەوەی بەر جێناو کەوت، لە جێناوەکەوە جیا دەبێتەوە.
     </p>
     <p>
-      <span className="incorrect">تێمگەیاند</span>.
+      <span className="bg-incorrect">تێمگەیاند</span>.
       <br />
-      <span className="correct">تێم گەیاند</span>.
+      <span className="bg-correct">تێم گەیاند</span>.
     </p>
   </>,
   <h2 id="10">کاری لێکدراو</h2>,
   <>
     <p>دەبێت بەشەکانی کاری لێکدراو لێک جیا بکرێنەوە.</p>
     <p>
-      <span className="incorrect">بەکارمهێنا</span>.
+      <span className="bg-incorrect">بەکارمهێنا</span>.
       <br />
-      <span className="correct">بەکارم هێنا</span>.
+      <span className="bg-correct">بەکارم هێنا</span>.
     </p>
     <p>
-      ئەوان <span className="incorrect">ڕێککەوتن</span>{" "}
+      ئەوان <span className="bg-incorrect">ڕێککەوتن</span>{" "}
       ڕێککەوتنەکە هەڵوەشێننەوە.
       <br />
-      ئەوان <span className="correct">ڕێک کەوتن</span> ڕێککەوتنەکە هەڵوەشێننەوە.
+      ئەوان <span className="bg-correct">ڕێک کەوتن</span> ڕێککەوتنەکە هەڵوەشێننەوە.
     </p>
     <p>
-      <span className="incorrect">خۆی باشکرد</span>.
+      <span className="bg-incorrect">خۆی باشکرد</span>.
       <br />
-      <span className="correct">خۆی باش کرد</span>.
+      <span className="bg-correct">خۆی باش کرد</span>.
     </p>
   </>,
   <h2 id="11">&laquo;وو/û&raquo;</h2>,
@@ -204,27 +204,27 @@ const otherProseChildren = [
       &laquo;و/u&raquo; تێکەڵ بکرێت.
     </p>
     <p>
-      شوێنێکی <span className="incorrect">دور</span>
+      شوێنێکی <span className="bg-incorrect">دور</span>
       <br />
-      شوێنێکی <span className="correct">دوور</span>
+      شوێنێکی <span className="bg-correct">دوور</span>
     </p>
     <p>
-      هێڵی <span className="incorrect">سور</span>
+      هێڵی <span className="bg-incorrect">سور</span>
       <br />
-      هێڵی <span className="correct">سوور</span>
+      هێڵی <span className="bg-correct">سوور</span>
     </p>
   </>,
   <h2 id="12">وشە بە &laquo;وو&raquo; دەست پێ مەکە</h2>,
   <>
     <p>
-      <span className="incorrect">ووزە</span>
+      <span className="bg-incorrect">ووزە</span>
       <br />
-      <span className="correct">وزە</span>
+      <span className="bg-correct">وزە</span>
     </p>
     <p>
-      <span className="incorrect">ووشە</span>
+      <span className="bg-incorrect">ووشە</span>
       <br />
-      <span className="correct">وشە</span>
+      <span className="bg-correct">وشە</span>
     </p>
   </>,
   <h2 id="12">
@@ -236,14 +236,14 @@ const otherProseChildren = [
       &laquo;وو/uw&raquo;، نەک &laquo;و/iw&raquo;.
     </p>
     <p>
-      <span className="incorrect">کردوە</span>
+      <span className="bg-incorrect">کردوە</span>
       <br />
-      <span className="correct">کردووە</span>
+      <span className="bg-correct">کردووە</span>
     </p>
     <p>
-      <span className="incorrect">هەموان</span>
+      <span className="bg-incorrect">هەموان</span>
       <br />
-      <span className="correct">هەمووان</span>
+      <span className="bg-correct">هەمووان</span>
     </p>
   </>,
 ];

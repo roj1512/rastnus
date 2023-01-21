@@ -21,11 +21,3 @@
     --t-less-dark: #cccccc33;
   }
 }
-
-.incorrect {
-  background-color: #ff000033;
-}
-
-.correct {
-  background-color: #00ff0033;
-}
