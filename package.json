@@ -1,10 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "build": "tsc --watch",
+    "build": "postcss ./src/main.css ./dist/main.css && tsc",
+    "dev:typescript": "tsc --watch",
     "mon": "nodemon dist/main.js",
     "postcss": "postcss  ./src/main.css -o ./dist/main.css --watch",
-    "dev": "concurrently \"npm run postcss\" \"npm run build\" \"npm run mon\""
+    "dev": "concurrently \"npm run postcss\" \"npm run dev:typescript\" \"npm run mon\""
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
