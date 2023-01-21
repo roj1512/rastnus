@@ -29,9 +29,9 @@ const otherProseChildren = [
       <span className="bg-correct">دڵیی</span> شکاند.
     </p>
     <p>
-      <span className="bg-incorrect">کانی</span> سازگار.
+      <span className="bg-incorrect">کانی</span> سازگار
       <br />
-      <span className="bg-correct">کانیی</span> سازگار.
+      <span className="bg-correct">کانیی</span> سازگار
     </p>
     <p>
       <span className="bg-incorrect">یاریەکی</span> خۆش بوو.
