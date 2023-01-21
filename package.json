@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "postcss ./src/main.css ./dist/main.css && tsc && node dist/main.js",
+    "build": "postcss ./src/main.css -o ./dist/main.css && tsc && node dist/main.js",
     "dev:typescript": "tsc --watch",
     "mon": "nodemon dist/main.js",
     "postcss": "postcss  ./src/main.css -o ./dist/main.css --watch",
