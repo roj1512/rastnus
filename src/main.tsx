@@ -255,6 +255,19 @@ const otherProseChildren = [
       <span className="bg-correct">بە پێی</span> خۆی هاتە ئێرە.
     </p>
   </>,
+  <h2>لەدوای &laquo;ی&raquo; &laquo;یش&raquo; دێت، نەک &laquo;ش&raquo;</h2>,
+  <>
+    <p>
+      شاری <span className="bg-incorrect">سلێمانیش</span>
+      <br />
+      شاری <span className="bg-correct">سلێمانییش</span>
+    </p>
+    <p>
+      کاک <span className="bg-incorrect">سلێمانییش</span>
+      <br />
+      کاک <span className="bg-correct">سلێمانیش</span>
+    </p>
+  </>,
 ].map((v, i) =>
   v.type == "h2" ? <h2 id={String(i + 1)}>{v.props.children}</h2> : v
 );
