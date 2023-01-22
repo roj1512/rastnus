@@ -4,7 +4,7 @@ import { writeFileSync } from "fs";
 import { renderToStaticMarkup } from "react-dom/server";
 
 const otherProseChildren = [
-  <h2 id="1">هاوەڵکاری چۆنییەتی مەشکێنە</h2>,
+  <h2>هاوەڵکاری چۆنییەتی مەشکێنە</h2>,
   <>
     <p>
       هاوەڵکاری چۆنییەتی دەبێت بەیەکەوە بنووسرێت و نابێت بەشەکانی لێک جیا
@@ -21,7 +21,7 @@ const otherProseChildren = [
       <span className="bg-correct">بەپێی</span> ئامارەکان
     </p>
   </>,
-  <h2 id="2">لەخۆتەوە &laquo;ی&raquo; قوت مەدە</h2>,
+  <h2>لەخۆتەوە &laquo;ی&raquo; قوت مەدە</h2>,
   <>
     <p>
       <span className="bg-incorrect">دڵی</span> شکاند.
@@ -61,7 +61,7 @@ const otherProseChildren = [
       هیچ نییە، زۆر <span className="bg-correct">ئاسایییە</span>.
     </p>
   </>,
-  <h2 id="3">وشە بە «ر» دەست پێ مەکە</h2>,
+  <h2>وشە بە «ر» دەست پێ مەکە</h2>,
   <>
     <p>
       <span className="bg-incorrect">رەنگ</span>
@@ -69,10 +69,10 @@ const otherProseChildren = [
       <span className="bg-correct">ڕەنگ</span>
     </p>
   </>,
-  <h2 id="4">&laquo;ك&raquo; پیتێکی کوردی نییە</h2>,
+  <h2>&laquo;ك&raquo; پیتێکی کوردی نییە</h2>,
   <>
     <p>
-      دەبێت کاراکتەری &laquo;ک&raquo; بەکار بێنیت کە &laquo;ک&raquo;ـی کوردی
+      دەبێت نووسەی &laquo;ک&raquo; بەکار بێنیت کە &laquo;ک&raquo;ـی کوردی
       دەنوێنێت و لە کۆتاییی وشەکان بەڕێکی دەردەکەوێت.
     </p>
     <p>
@@ -81,7 +81,7 @@ const otherProseChildren = [
       <span className="bg-correct">خۆراک</span>
     </p>
   </>,
-  <h2 id="5">&laquo;تر&raquo; و &laquo;-تر&raquo; دوو شتی جیان</h2>,
+  <h2>&laquo;تر&raquo; و &laquo;-تر&raquo; دوو شتی جیان</h2>,
   <>
     <p>&laquo;تر&raquo; واتە دیکە/other. دەبێت سەربەخۆ بنووسرێت.</p>
     <p>
@@ -99,7 +99,7 @@ const otherProseChildren = [
       <span className="bg-correct">چاوڕەشتر</span>
     </p>
   </>,
-  <h2 id="6">ئاگات لە &laquo;بێـ/بێ/بەبێ&raquo; بێت</h2>,
+  <h2>ئاگات لە &laquo;بێـ/بێ/بەبێ&raquo; بێت</h2>,
   <>
     <p>نابێت &laquo;بێ&raquo;ـی هاوەڵناو سەربەخۆ بنووسرێت.</p>
     <p>
@@ -119,7 +119,7 @@ const otherProseChildren = [
       <span className="bg-correct">بەبێ</span> ئەوان ناکرێت.
     </p>
   </>,
-  <h2 id="7">چاوگی لێکدراو و داڕێژراو</h2>,
+  <h2>چاوگی لێکدراو و داڕێژراو</h2>,
   <>
     <p>بەشەکانی چاوگی لێکدراو و داڕێژراو نابێت لێک جیا بکرێنەوە.</p>
     <p>
@@ -146,7 +146,7 @@ const otherProseChildren = [
       <span className="bg-correct">پێ لێ هەڵگرتن</span>
     </p>
   </>,
-  <h2 id="8">کاری سادە</h2>,
+  <h2>کاری سادە</h2>,
   <>
     <p>ئامڕازی نەرێکردن و جێناو کاری سادە ناکەنە دوو بەش.</p>
     <p>
@@ -155,7 +155,7 @@ const otherProseChildren = [
       <span className="bg-correct">نەتانکرد</span>.
     </p>
   </>,
-  <h2 id="9">کاری داڕێژراو</h2>,
+  <h2>کاری داڕێژراو</h2>,
   <>
     <p>کاری داڕێژراو ئەگەر بەشێکی پێشەوەی بەر جێناو نەکەوت، جیا ناکرێتەوە.</p>
     <p>
@@ -177,7 +177,7 @@ const otherProseChildren = [
       <span className="bg-correct">تێم گەیاند</span>.
     </p>
   </>,
-  <h2 id="10">کاری لێکدراو</h2>,
+  <h2>کاری لێکدراو</h2>,
   <>
     <p>دەبێت بەشەکانی کاری لێکدراو لێک جیا بکرێنەوە.</p>
     <p>
@@ -198,7 +198,7 @@ const otherProseChildren = [
       <span className="bg-correct">خۆی باش کرد</span>.
     </p>
   </>,
-  <h2 id="11">&laquo;وو/û&raquo;</h2>,
+  <h2>&laquo;وو/û&raquo;</h2>,
   <>
     <p>
       وەک هەر پیتێکی دیکە، &laquo;وو/û&raquo;ـش پیتێکە و نابێت لەگەڵ
@@ -215,7 +215,7 @@ const otherProseChildren = [
       هێڵی <span className="bg-correct">سوور</span>
     </p>
   </>,
-  <h2 id="12">وشە بە &laquo;وو&raquo; دەست پێ مەکە</h2>,
+  <h2>وشە بە &laquo;وو&raquo; دەست پێ مەکە</h2>,
   <>
     <p>
       <span className="bg-incorrect">ووزە</span>
@@ -228,7 +228,7 @@ const otherProseChildren = [
       <span className="bg-correct">وشە</span>
     </p>
   </>,
-  <h2 id="13">
+  <h2>
     &laquo;وو/û&raquo; بکە &laquo;وو/uw&raquo;، نەک &laquo;و/iw&raquo;
   </h2>,
   <>
@@ -247,7 +247,7 @@ const otherProseChildren = [
       <span className="bg-correct">هەمووان</span>
     </p>
   </>,
-  <h2 id="14">ئامڕازی پەیوەندی بەجیا بنووسە</h2>,
+  <h2>ئامڕازی پەیوەندی بەجیا بنووسە</h2>,
   <>
     <p>
       <span className="bg-incorrect">بەپێی</span> خۆی هاتە ئێرە.
@@ -255,7 +255,9 @@ const otherProseChildren = [
       <span className="bg-correct">بە پێی</span> خۆی هاتە ئێرە.
     </p>
   </>,
-];
+].map((v, i) =>
+  v.type == "h2" ? <h2 id={String(i + 1)}>{v.props.children}</h2> : v
+);
 
 const toc = (
   <ul>
