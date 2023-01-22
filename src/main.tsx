@@ -247,6 +247,14 @@ const otherProseChildren = [
       <span className="bg-correct">هەمووان</span>
     </p>
   </>,
+  <h2 id="14">ئامڕازی پەیوەندی بەجیا بنووسە</h2>,
+  <>
+    <p>
+      <span className="bg-incorrect">بەپێی</span> خۆی هاتە ئێرە.
+      <br />
+      <span className="bg-correct">بە پێی</span> خۆی هاتە ئێرە.
+    </p>
+  </>,
 ];
 
 const toc = (
