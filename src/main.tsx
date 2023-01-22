@@ -228,7 +228,7 @@ const otherProseChildren = [
       <span className="bg-correct">وشە</span>
     </p>
   </>,
-  <h2 id="12">
+  <h2 id="13">
     &laquo;وو/û&raquo; بکە &laquo;وو/uw&raquo;، نەک &laquo;و/iw&raquo;
   </h2>,
   <>
