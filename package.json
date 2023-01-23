@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "postcss ./src/main.css -o ./dist/main.css && tsc && node dist/main.js",
+    "build": "postcss ./src/main.css -o ./dist/main.css && tsc && node --require dotenv/config dist/main.js",
     "dev:typescript": "tsc --watch",
     "mon": "nodemon dist/main.js",
     "postcss": "postcss  ./src/main.css -o ./dist/main.css --watch",
@@ -14,6 +14,7 @@
     "@types/react-dom": "^18.0.10",
     "autoprefixer": "^10.4.13",
     "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.20",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
