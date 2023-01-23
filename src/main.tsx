@@ -338,9 +338,12 @@ const html = (
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TAG}`}
           >
           </script>
-          <script>
-            {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${process.env.GA_TAG}');`}
-          </script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html:
+                `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${process.env.GA_TAG}');`,
+            }}
+          />
         </>
       )}
     </head>
