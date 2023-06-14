@@ -363,11 +363,9 @@ const html = (
       <footer className="mx-auto max-w-2xl prose lg:prose-lg dark:prose-invert pt-20 pb-5 prose-a:font-bold prose-a:no-underline">
         <p>
           <sub>
-            لەژێر کاردایە &middot;{" "}
             <a href="https://github.com/roj1512/renus-bepele">
               سەرچاوە
-            </a>{" "}
-            &middot; <a href="https://roj.im">ڕۆژ</a>
+            </a>
           </sub>
         </p>
       </footer>
